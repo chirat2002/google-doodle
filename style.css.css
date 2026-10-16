@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Prompt', sans-serif;
+    user-select: none;
+}
+
+.active-turn-card {
+    border-color: #facc15 !important;
+    box-shadow: 0 0 15px rgba(250, 204, 21, 0.4);
+}
+
+.eliminated-card {
+    opacity: 0.4;
+    background-color: rgba(69, 10, 10, 0.3) !important;
+    border-color: #991b1b !important;
+}
